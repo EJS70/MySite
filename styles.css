@@ -54,11 +54,15 @@ div#tswcontainer {
 div#tswsideproper, div#tswothersideproper {
   padding-left: 5px;
   padding-right: 5px;
+  border-radius: 10px;
 }
 
 div#tswheader {
   color: black;
   background-color: white;
+  outline-style: dotted;
+  outline-width: 3px;
+  outline-color: red;
 }
 
 div#tswfooter {

@@ -26,7 +26,6 @@
 #tswcssbuttons li a {
 	color: black;
 	background-color: grey;
-	border: 1px outset white;
 	text-decoration: none ;
 	display: block ;
 }
