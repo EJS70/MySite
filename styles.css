@@ -63,8 +63,22 @@ div#tswheader {
   outline-style: dotted;
   outline-width: 3px;
   outline-color: red;
-  text-shadow: 3px 3px maroon;
-  t
+  text-shadow: 3px 3px maroon; 
+}
+
+.pulse {
+  animation-name: pulse_anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse_anim {
+	0%, 100% {
+		font-size: 100%;
+	}
+	50% {
+		font-size: 105%;
+	}
 }
 
 div#tswfooter {

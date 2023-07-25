@@ -30,6 +30,7 @@
 	background-color: grey;
 	text-decoration: none ;
 	display: block ;
+	transition: 0.3s;
 }
 #tswcssbuttons li a:hover {
 	color: black;
