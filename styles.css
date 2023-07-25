@@ -63,6 +63,8 @@ div#tswheader {
   outline-style: dotted;
   outline-width: 3px;
   outline-color: red;
+  text-shadow: 3px 3px maroon;
+  t
 }
 
 div#tswfooter {
