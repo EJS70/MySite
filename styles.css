@@ -89,3 +89,25 @@ div#tswfooter {
 #tswheader {
   font-family: "Arial", "Helvetica", "sans-serif";
 }
+
+h2 {
+  animation-name: glow_anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes glow_anim {
+	0%, 100% {
+		text-shadow: 0 0 10px #00aaaa, 
+			0 0 20px #008888,
+			0 0 30px #006666,
+			0 0 40px #004444,
+			0 0 50px #002222;
+	}
+	50% {
+		text-shadow: 0 0 10px #008888, 
+			0 0 20px #006666,
+			0 0 30px #004444,
+			0 0 40px #002222;
+	}
+}
