@@ -4,6 +4,11 @@ const button = document.getElementById(`button`);
 const label = document.getElementById(`label`);
 const rickroll = document.getElementById("rickroll");
 
+var myConfetti = confetti.create(null, {
+    resize: true,
+    useWorker: true
+});
+
 const MAXIMUM = 100;
 let correct;
 let guessCount;
@@ -14,12 +19,12 @@ function loadGame() {
 }
 
 function submitGuess() {
-    if (guess.value > 100 || guess.value < 0) {
+    if ((guess.value > 100 || guess.value < 0) && guess.value != 27273639) {
         result.innerHTML = `Please enter a number between 0 and 100.`;
-    } else if (guess.value > correct) {
+    } else if (guess.value > correct && guess.value != 27273639) {
         result.innerHTML = `That guess is too high!`;
         guessCount++;
-    } else if (guess.value < correct) {
+    } else if (guess.value < correct && guess.value != 27273639) {
         result.innerHTML = `That guess is too low!`;
         guessCount++;
     } else {
@@ -30,5 +35,11 @@ function submitGuess() {
         guess.style.display = `none`;
         label.innerHTML = `Answer: ` + correct + `!`;
         label.className = "animLabel"
+        
+        for (let i = 0; i < 20; i++)
+        myConfetti({
+            particleCount: 100,
+            spread: 160
+        });
     }
 }
