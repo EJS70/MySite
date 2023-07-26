@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numgame</title>
+</head>
+<body onload="loadGame()">
+    <h1>NumGame!</h1>
+    <p>This game is very simple. You will guess a randomly generated number between 0 and 100,
+        and you will told whether it is too large or too small.
+        <br>
+        Try to find the number in as few guesses as possible!
+    </p>
+    <label>Guess: </label>
+    <input id="guess" type="number" min="0">
+    <button onclick="submitGuess()">Submit</button>
+    <p id="result">Start of result</p>
+    <script src="numgame.js"></script>
+</body>
+</html>
