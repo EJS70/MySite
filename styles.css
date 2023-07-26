@@ -64,6 +64,7 @@ div#tswheader {
   outline-width: 3px;
   outline-color: red;
   text-shadow: 3px 3px maroon; 
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .pulse {
@@ -187,4 +188,4 @@ h2 {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}\
+}
