@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli &amp; Sylvia</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <a href="../index.html">Back to Home</a><br><br>
+    <input type="number" id="a">
+    <input type="number" id="b">
+    <br>
+    <br/>
+    <button id="plus" onclick="add()">+</button>
+    <button id="minus" onclick="sub()">-</button>
+    <button id="multiply" onclick="mul()">*</button>
+    <button id="divide" onclick="div()">/</button>
+    <button id="modukar" onclick="mod()">%</button>
+    <p id="resultBox">Result: <span id="result"></span></p>
+
+    <div id="historyBox">
+    <p>History: <span id="history"><br/></span></p>
+    <script src="calculator.js"></script>
+    </div>
+</body>
+</html>
