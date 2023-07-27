@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli &amp; Sylvia</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <a href="../index.html">Back to Home</a><br>
+    <br>
+    <input id="a" type="number"> <input id="b" type="number"> <br>
+    <br>
+    <button id="plus" onclick="add()">+</button> <button id="minus" onclick="sub()">-</button>
+    <button id="multiply" onclick="mul()">*</button> <button id="divide" onclick="div()">/</button>
+    <button id="modukar" onclick="mod()">%</button> <button id="power" onclick="pow()">^</button>
+    <br>
+    <button id="uselast" onclick="useLast()">Use Last</button>
+    <p id="resultBox">Result: <span id="result"></span></p>
+    <div id="historyBox">
+      <p>History: <span id="history"><br>
+        </span></p>
+      <script src="calculator.js"></script> </div>
+  </body>
+</html>

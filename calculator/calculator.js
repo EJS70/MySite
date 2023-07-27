@@ -29,3 +29,12 @@ function mod() {
 
 }
 
+function pow() {
+     result.innerHTML = Math.pow(a.value, b.value);
+     history.innerHTML += parseFloat(a.value) + " ^ " + parseFloat(b.value) + " = " +  result.innerHTML + "<br/>";
+
+}
+
+function useLast() {
+	a.value = result.innerHTML;
+}
