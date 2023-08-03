@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Eli Schwartz's Website!</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
+  </head>
+  <body style="                             background-color: black;">
+    <div id="tswcontainer" style="background-color: black;">
+      <div id="tswheader" style="background-color: black;"> <!-- start of header section: insert your logo, etc, here -->
+        <h1 style="  background-color: black;"><b><span style="color: #ff6666;"
+
+              class="pulse"> Eli Schwartz's Website! </span></b></h1>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div id="tswcontent" style="background-color: black;">
+        <div id="tswcontproper" style="background-color: black;">
+          <!-- start of content column: insert your content here -->
+          <h2 style=" background-color: black;"><span style="color: #00cccc;">My
+              programming experience:</span></h2>
+          <span style="color: #00cccc;"> </span>
+          <p style="background-color: black;"><span style="color: #00cccc;">I
+              have significant experience coding in two languages: Java and
+              Python. Last year, I was the software manager for my school's
+              robotics team, Liquid Oxygen. In my free time, I enjoy coding
+              whatever interests me at the moment.</span></p>
+          <span style="color: #00cccc;"> </span>
+          <h4 style="background-color: black;"><span style="color: #00cccc;">
+              Cryptography: </span></h4>
+          <span style="color: #00cccc;"> </span>
+          <p style="background-color: black;"><span style="color: #00cccc;">One
+              of my biggest interests is in the field of cryptography. I enjoy
+              researching new methods and algorithms, before attempting to
+              implement them myself. Examples of algorithms I've implemented
+              myself include AES, ECDHE, and SHA-256.</span></p>
+          <p style="background-color: black;"><span style="color: #00cccc;"><br>
+            </span></p>
+          <img src="images/aes.jpg" alt="" title="AES" style="width:200px;"> <img
+
+            src="images/sha256.jpg" alt="" title="SHA-256" style="width:300px;"><span
+
+            style="color: #00cccc;"> </span>
+          <h4 style="background-color: black;"><span style="color: #00cccc;">
+              Artificial Intelligence: </span></h4>
+          <span style="color: #00cccc;"> </span>
+          <p style="background-color: black;"><span style="color: #00cccc;"> My
+              experience with AI is much more limited, but I do have some
+              understanding of the core concepts, and I have created a neural
+              network that is able to identify handwritten digits with 96%
+              accuracy. </span></p>
+          <span style="color: #00cccc;"> </span> <img src="images/ai.jpg" alt=""
+
+            title="Neural Network">
+          <p style="background-color: black;"><span style="color: #00cccc;">
+              Have a great day! </span></p>
+          <p>&nbsp;</p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol" style="background-color: black;">
+        <div id="tswsideproper" style="background-color: #aeaeae; color: yellow;">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <p> <i> The source code for this website can be found <a href="https://github.com/EJS70/MySite"
+
+                style="color: yellow;">here</a>. </i> </p>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
+      <br><br><br><br><br><br><br>
+      <div id="tswcssbuttons">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programming.html">Programming</a></li>
+          <li><a href="chess.html">Chess</a></li>
+          <li><a href="robots.html">Robotics</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="numgame/numgame.html">NumGame</a></li>
+          <li><a href="calculator/calculator.html">Calculator</a></li>
+        </ul>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="tswfooter" style="background-color: black;">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p style="background-color: black;"><span style="color: #33ff33;"> ©
+            Nobody 2023</span></p>
+        <p style="background-color: black;"><span style="color: #33ff33;">Contact
+            me at: <a href="mailto://ejschwartz1@wpi.edu" style="color: #33ff33;">ejschwartz1@wpi.edu</a><br>
+          </span></p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+  </body>
+</html>

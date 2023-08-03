@@ -189,3 +189,29 @@ h2 {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.flashAnim {
+	animation-name: footerAnim;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes footerAnim {
+	0%, 100% {
+		background-color: maroon;
+	}
+	50% {
+		background-color: darkblue;
+	}
+}
+
+.slide {
+	animation-name: slideAnim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes slideAnim {
+	0%, 100% {left: 0px;}
+	50% {left: 100px;}
+}
